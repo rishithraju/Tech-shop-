@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <style>
+        *{
+            background-color: violet;
+        }
+        h1{
+            color: white;
+        }
+        .navbar{
+            color: white;
+            display: flex;
+            justify-content:space-between;
+          align-items: center ;
+        }
+
+        .icons ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        .icons ul li{
+            margin-left: 10px;
+        }
+        
+        h3{
+            position: absolute;
+            top: 72px;
+            right: 32px;
+            color: white;
+        }
+        table{
+            position:absolute;
+            top: 112px;
+            right: 37px;
+            color:white;
+            
+        }
+        .table{
+            color:rgb(86, 224, 86);
+        }
+
+        button{
+            color:white;
+            background-color: red;
+            text-align:center;
+            border:none;
+            position: absolute;
+            top: 306px;
+            right: 40px;
+            padding:5px;
+            width: 15%;
+            margin: 10px;
+            padding-left: 10px;
+        }
+
+
+.card-items{
+    display: flex;
+    width:100%;
+    padding:10px;
+}
+img{
+    width:100px;
+}  
+.table1{
+    position:absolute;
+            top: 0px;
+            left: 0px;
+            color:white;
+}
+      figcaption{
+        position:absolute;
+            top: 146px;
+            left: 177px;
+            color:white;
+        
+      }  
+
+      .td1{
+        position:absolute;
+            top: 170px;
+            left: 177px;
+            color:white;
+      }
+
+      .td2{
+        position:absolute;
+            top: 170px;
+            left: 253px;
+            color:white;
+      }
+    </style>
+</head>
+<body>
+<section class="navbar">
+     <div class="heading">
+     <h1>Tech-Shop</h1>
+     </div>
+
+    <div class="icons">
+    <ul type="none">
+    <li><ion-icon name="search-outline"></ion-icon></li>
+    <li> <ion-icon name="cart-outline"></ion-icon></li>
+    <li><ion-icon name="person-outline"></ion-icon></li>
+    </ul>
+
+    </div>
+</section>
+    <h3>Order Summary (4 items) </h3>
+
+    <table cellspacing="7" cellpadding="7">
+    <thead>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </thead>
+
+    <tbody>
+    <tr> 
+        <td>Original Price </td>
+        <td align="right">₹22,978</td>
+    </tr>
+
+    <tr> 
+        <td>Discount</td>
+        <td class="table" align="right">-₹10,132</td>
+    </tr>
+
+    <tr> 
+        <td>Delivery</td>
+        <td class="table" align="right">Free</td>
+    </tr>
+    
+    <tr> 
+        <td style="font-size: 22px;">Total Price</td>
+        <td style="font-size: 22px;"  align="right">₹12,846</td>
+    </tr>
+    
+</tbody>
+</table>
+    <button>Checkout</button>
+
+
+    <section class="cards">
+    <div class="card-items">
+        <figure>
+            <table cellspacing="7" cellpadding="7" class="table1">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr> 
+                        <td class="td1"align="right">₹1,299 </td>
+                        <td class="td2">₹3,990</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <figcaption>JBL Live 660NC Wireless Over-Ear NC Headphones</figcaption>
+            <img src ="jbl660nc-1.png"
+        </figure>
+    </div>
+
+
+    </section>
+
+        <footer>
+         <ul>
+            <li>Help</li>
+            <li>FAQs</li>
+            <li>Track Order</li>
+            <li>Cancel Order</li>
+            <li>Return Order</li>
+            <li>Warranty info</li>
+        </ul>
+
+        <ul>
+            <li>Policies</li>
+            <li>Return Policy</li>
+            <li>Security</li>
+            <li>Sitemap</li>
+            <li>Privacy Policy</li>
+            <li>Terms&Conditions</li>
+
+        </ul>
+
+        <ul>
+            <li>Company</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Service Centers</li>
+            <li>Careers</li>
+            <li>Affiliates</li>
+
+        </ul>
+        <span class="footerspan">2024 | All Rights Reserved.Built by | MUPPALARISHITH</span>
+        </footer>
+                </div>
+            </div>
+        </footer>
+    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
